@@ -1,0 +1,25 @@
+{
+  "name": "excell",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./server/app.js",
+    "dev": "nodemon ./server/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "html-pdf": "^3.0.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "xlsx": "^0.18.5"
+  },
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
